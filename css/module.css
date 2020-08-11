@@ -37,7 +37,7 @@ ul {
 }
 
 table {
-  border-spacing: 10px;
+  border-spacing: 1rem;
 }
 
 li::before {
@@ -60,7 +60,13 @@ tr::before {
   content: "";
 }
 
+.tableCustom{
+  text-align: center;
+  padding-left: 2.2rem;
+}
+
 .tableColumn {
   display: inline-block;
   margin-right: 50px;
+  text-align: left;
 }
