@@ -40,6 +40,7 @@ table {
   border-spacing: 1rem;
 }
 
+
 li::before {
   content: "►";
   color: #495664;
@@ -49,7 +50,7 @@ li::before {
 tr::before {
   content: "►";
   color: #495664;
-  margin-right: 10px;
+  margin-right: 0px;
 }
 
 .rating {
