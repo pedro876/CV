@@ -12,7 +12,7 @@
 }
 
 .imgLeft {
-  margin-right: 8px;
+  margin-right: 20px;
 }
 
 .imgRight {
@@ -20,7 +20,7 @@
 }
 
 .modTxt {
-  max-width: 900px;
+  max-width: 700px;
   text-align: left;
   display: inline-block;
   vertical-align: middle;
@@ -50,7 +50,7 @@ li::before {
 tr::before {
   content: "►";
   color: #495664;
-  margin-right: 0px;
+  margin-right: 0;
 }
 
 .rating {
