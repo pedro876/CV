@@ -35,10 +35,6 @@ table{
   border-spacing: 10px;
 }
 
-li{
-  font-size: 1.4rem;
-}
-
 li::before {
   content: "►";
   color: #495664;
