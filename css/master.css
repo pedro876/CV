@@ -78,3 +78,8 @@ a:hover {
   border-top-left-radius: 30px;
   border-top-right-radius: 30px;
 }
+
+.creditsList{
+  display: inline-block;
+  text-align: left;
+}
