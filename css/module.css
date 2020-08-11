@@ -45,11 +45,21 @@ li::before {
   margin-right: 10px;
 }
 
+tr::before{
+  content: "►";
+  color: #495664;
+  margin-right: 10px;
+}
+
 .rating{
   margin-right: 50px;
 }
 
 .rating::before{
   content:"";
+}
 
+.tableColumn{
+  display: inline-block;
+  margin-right: 50px;
 }
