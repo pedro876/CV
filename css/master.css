@@ -1,0 +1,80 @@
+/* COLOR PALETTE https://colorhunt.co/palette/44662
+#333c4a
+#495664
+#1ea0a8
+#f6f7d3
+#f8fceb
+#f7f7f7
+*/
+body {
+  background-color: #f8fceb;
+  text-align: center;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 2;
+  font-size: 1.4rem;
+  color: #333c4a;
+  font-weight: normal;
+}
+
+h1 {
+  font-family: 'Merienda', cursive;
+  font-weight: normal;
+}
+
+h2 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+}
+
+hr {
+  width: 10%;
+  border-style: none none dotted none;
+  border-width: 8px;
+  border-color: #495664;
+  margin: 50px auto 60px auto;
+}
+
+a {
+  text-decoration: none;
+  color: #1ea0a8
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.siteHeader {
+  background-color: #333c4a;
+  max-width: 1080px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  margin: 0 auto 0 auto;
+  padding: 2rem 0 2rem 0;
+  color: #f7f7f7;
+}
+
+.profileImg {
+  border-radius: 100%;
+  width: 15rem;
+  vertical-align: middle;
+  margin-right: 1rem;
+}
+
+.siteHeaderTxt {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.footer{
+  color:#f7f7f7;
+  max-width: 1080px;
+  background-color: #333c4a;
+  padding: 2rem 0 2rem 0;
+  margin: 0 auto 0 auto;
+  text-align: center;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}

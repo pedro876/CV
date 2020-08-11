@@ -1,0 +1,51 @@
+.module {
+  max-width: 1080px;
+  margin: 0 auto 0 auto;
+  padding: 2rem 0 2rem 0;
+}
+
+.modImg {
+  width: 170px;
+  vertical-align: middle;
+}
+
+.imgLeft {
+  margin-right: 8px;
+}
+
+.imgRight{
+  margin-left: 8px;
+}
+
+.modTxt {
+  max-width: 900px;
+  text-align: left;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+ul {
+  list-style: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 1rem;
+}
+
+table{
+  border-spacing: 10px;
+}
+
+li::before {
+  content: "►";
+  color: #495664;
+  margin-right: 10px;
+}
+
+.rating{
+  margin-right: 50px;
+}
+
+.rating::before{
+  content:"";
+
+}
