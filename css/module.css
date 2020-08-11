@@ -7,13 +7,15 @@
 .modImg {
   width: 170px;
   vertical-align: middle;
+  margin-bottom: 20px;
+  margin-top: 10px;
 }
 
 .imgLeft {
   margin-right: 8px;
 }
 
-.imgRight{
+.imgRight {
   margin-left: 8px;
 }
 
@@ -28,34 +30,37 @@ ul {
   list-style: none;
   margin-top: 0;
   margin-bottom: 0;
+  margin-left: 5px;
   padding-left: 1rem;
+  list-style-position: outside;
+  text-indent: -1.3rem;
 }
 
-table{
+table {
   border-spacing: 10px;
 }
 
 li::before {
   content: "►";
   color: #495664;
-  margin-right: 10px;
+  margin-right: 5px;
 }
 
-tr::before{
+tr::before {
   content: "►";
   color: #495664;
   margin-right: 10px;
 }
 
-.rating{
+.rating {
   margin-right: 50px;
 }
 
-.rating::before{
-  content:"";
+.rating::before {
+  content: "";
 }
 
-.tableColumn{
+.tableColumn {
   display: inline-block;
   margin-right: 50px;
 }
