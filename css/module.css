@@ -53,6 +53,14 @@ tr::before {
   margin-right: 0;
 }
 
+.socialRow::before{
+  content: "";
+}
+
+.socialIcon{
+  width: 64px;
+}
+
 .rating {
   margin-right: 50px;
 }
