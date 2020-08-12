@@ -53,14 +53,22 @@ a:hover {
 }
 
 .langBtn{
-  padding: 16px 24px 16px 24px;
-  font-size: 120%;
+  padding: 8px 24px 8px 24px;
+
   border-width: 0;
   background-color: #333c4a;
+
+  border-radius: 16px;
+  display: inline-block;
+  text-align: center;
+  margin:0 auto 24px auto;
+}
+
+.langRef{
+  font-size: 110%;
   color: white;
   font-weight: normal;
   font-family: 'Raleway', sans-serif;
-  border-radius: 16px;
 }
 
 .langBtn:hover{
