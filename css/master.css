@@ -7,6 +7,8 @@
 #f7f7f7
 */
 
+
+
 body {
   background-color: #f8fceb;
   text-align: center;
@@ -48,6 +50,21 @@ a {
 
 a:hover {
   text-decoration: underline;
+}
+
+.langBtn{
+  padding: 16px 24px 16px 24px;
+  font-size: 120%;
+  border-width: 0;
+  background-color: #333c4a;
+  color: white;
+  font-weight: normal;
+  font-family: 'Raleway', sans-serif;
+  border-radius: 16px;
+}
+
+.langBtn:hover{
+  background-color: #495664;
 }
 
 .iframe-container{
