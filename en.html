@@ -7,8 +7,9 @@
   <title>Pedro Casas Personal Site</title>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Merienda&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/master.css">
-  <link rel="stylesheet" href="css/module.css">
+  <link rel="stylesheet" href="css/headerFooter.css">
+  <link rel="stylesheet" href="css/misc.css">
+  <link rel="stylesheet" href="css/body.css">
 </head>
 
 <body>
@@ -16,186 +17,171 @@
     <img class="profileImg" src="resources/profileImg.png" alt="profile-img">
     <div class="siteHeaderTxt">
       <h1>Pedro Casas Martínez</h1>
-      <p>Programmer.<br>
+      <p class="pCentered">Programmer.<br>
         Senior student in Game Design and Development in Madrid, Spain.</p>
     </div>
   </div>
 
-  <div class="langBtn">
-    <a class="langRef" href="index.html">See spanish version</a>
-  </div>
+  <div class="container">
+    <div class="langBtn">
+      <a class="langRef" href="index.html">See spanish version</a>
+    </div>
 
-  <hr>
+    <hr>
 
-  <div class="module">
     <h2>Contact details</h2>
-    <p>Email: pedrocasas876@gmail.com</p>
-    <div class="modTxt">
+    <p class="pCentered">Email: pedrocasas876@gmail.com</p>
+    <div class="flexParent">
+      <a class="flexChild" href="https://github.com/pedro876">
+        <img class="socialIcon" src="resources/github.png" alt="git">
+        Github</a>
+
+      <a class="flexChild" href="https://www.linkedin.com/in/pedrocasasm">
+        <img class="socialIcon" src="resources/linkedin.png" alt="linkedin">
+        LinkedIn</a>
+
+      <a class="flexChild" href="https://peter876.itch.io/">
+        <img class="socialIcon" src="resources/itchio.png" alt="itchio">
+        Itch.io</a>
+
+      <a class="flexChild" href="mailto:pedrocasas876@gmail.com">
+        <img class="socialIcon" src="resources/gmail.png" alt="gmail">
+        Enviar email</a>
+    </div>
+    <hr>
+
+    <h2>Goal</h2>
+    <div class="flexParent">
+      <img class="modImg" src="resources/goal.png" alt="goalImg">
+      <p class="modTxt">I am looking for a good opportunity to complete my degree working in a project in which I can really learn and be useful.</p>
+    </div>
+    <hr>
+
+    <h2>Education</h2>
+    <div class="flexParent">
+      <img class="modImg" src="resources/notebooks.png" alt="educationImg">
+      <div class="modTxt">
+        <ul>
+          <li>Degree in Game Design and Development. <a href="https://www.urjc.es/en/">Rey Juan Carlos University</a>.</li>
+          <li>Additional course on competitive programming. <a href="https://www.urjc.es/en/">Rey Juan Carlos University</a>.</li>
+          <!--<li>Online course on Web Development. <a href="https://www.udemy.com/course/the-complete-web-development-bootcamp/">Udemy course</a>.</li>-->
+          <li>Certificate of English B2. <a href="https://www.kensingtonsite.com/?gclid=EAIaIQobChMI8KfWvd2O6wIVy7vVCh2dgwyaEAAYASAAEgKN2_D_BwE">Kensite School</a>. Murcia, Spain</li>
+        </ul>
+      </div>
+    </div>
+    <hr>
+
+    <h2>Academic Achievements</h2>
+    <div class="flexParent">
+      <img class="modImg" src="resources/medal.png" alt="honorsImg">
+      <div class="modTxt">
+        <ul>
+          <li>Average grade: 8.26.</li>
+          <li>With honors in Advanced graphic processors.</li>
+          <li>With honors in Online Games.</li>
+          <li>With honors in Game Algorithms.</li>
+          <li>With honors in Multiplayer Environments.</li>
+        </ul>
+      </div>
+    </div>
+    <hr>
+
+    <h2>Skills</h2>
+    <div class="flexParent">
+      <img class="modImg" src="resources/key-skills.png" alt="skillsImg">
+      <div class="tableCustom flexParent">
+
+
       <table>
-        <tr class="socialRow">
-          <td><img class="socialIcon" src="resources/github.png" alt="git"></td>
-          <td><a href="https://github.com/pedro876">Github</a></td>
-          <td><img class="socialIcon" src="resources/linkedin.png" alt="linkedin"></td>
-          <td><a href="https://www.linkedin.com/in/pedrocasasm">LinkedIn</a></td>
+        <tr>
+          <td>Unity</td>
+          <td>★★★★★</td>
         </tr>
-        <tr class="socialRow">
-          <td><img class="socialIcon" src="resources/itchio.png" alt="itchio"></td>
-          <td><a href="https://peter876.itch.io/">Itch.io</a></td>
-          <td><img class="socialIcon" src="resources/gmail.png" alt="gmail"></td>
-          <td><a href="mailto:pedrocasas876@gmail.com">Send email</a></td>
+        <tr>
+          <td>Shading</td>
+          <td>★★★★☆</td>
+        </tr>
+        <tr>
+          <td>AI</td>
+          <td>★★★★☆</td>
+        </tr>
+        <tr>
+          <td>Redes</td>
+          <td>★★★★☆</td>
+        </tr>
+        <tr>
+          <td>SQL</td>
+          <td>★★★★☆</td>
+        </tr>
+        <tr>
+          <td>UE4</td>
+          <td>★★★☆☆</td>
+        </tr>
+        <tr>
+          <td>MongoDB</td>
+          <td>★★★☆☆</td>
         </tr>
       </table>
-    </div>
-
-  </div>
-
-  <hr>
-
-  <div class="module">
-    <h2>Education</h2>
-    <img class="modImg imgLeft" src="resources/notebooks.png" alt="educationImg">
-    <div class="modTxt">
-      <ul>
-        <li>Degree in Game Design and Development. <a href="https://www.urjc.es/en/">Rey Juan Carlos University</a>.</li>
-        <li>Additional course on competitive programming. <a href="https://www.urjc.es/en/">Rey Juan Carlos University</a>.</li>
-        <!--<li>Online course on Web Development. <a href="https://www.udemy.com/course/the-complete-web-development-bootcamp/">Udemy course</a>.</li>-->
-        <li>Certificate of English B2. <a href="https://www.kensingtonsite.com/?gclid=EAIaIQobChMI8KfWvd2O6wIVy7vVCh2dgwyaEAAYASAAEgKN2_D_BwE">Kensite School</a>. Murcia, Spain</li>
-      </ul>
-    </div>
-  </div>
-  <hr>
-
-  <div class="module">
-    <h2>Goal</h2>
-    <img class="modImg imgLeft" src="resources/goal.png" alt="goalImg">
-    <div class="modTxt">
-
-      <p>I am looking for a good opportunity to complete my degree working in a project in which I can really learn and be useful.</p>
-    </div>
-  </div>
-
-  <hr>
-
-  <div class="module">
-    <h2>Skills</h2>
-    <img class="modImg imgLeft" src="resources/key-skills.png" alt="skillsImg">
-    <div class="modTxt">
-      <div class="tableCustom">
-        <div class="tableColumn">
-          <table>
-            <tr>
-              <td>Unity</td>
-              <td>★★★★★</td>
-            </tr>
-            <tr>
-              <td>Shading</td>
-              <td>★★★★☆</td>
-            </tr>
-            <tr>
-              <td>AI</td>
-              <td>★★★★☆</td>
-            </tr>
-            <tr>
-              <td>Computer Networks</td>
-              <td>★★★★☆</td>
-            </tr>
-            <tr>
-              <td>SQL</td>
-              <td>★★★★☆</td>
-            </tr>
-            <tr>
-              <td>UE4</td>
-              <td>★★★☆☆</td>
-            </tr>
-            <tr>
-              <td>MongoDB</td>
-              <td>★★★☆☆</td>
-            </tr>
-          </table>
-        </div>
-        <div class="tableColumn">
-          <table>
-            <tr>
-              <td>C#</td>
-              <td>★★★★★</td>
-            </tr>
-            <tr>
-              <td>HTML</td>
-              <td>★★★★★</td>
-            </tr>
-            <tr>
-              <td>CSS</td>
-              <td>★★★★☆</td>
-            </tr>
-            <tr>
-              <td>JavaScript</td>
-              <td>★★★★☆</td>
-            </tr>
-            <tr>
-              <td>C++</td>
-              <td>★★★★☆</td>
-            </tr>
-            <tr>
-              <td>Python</td>
-              <td>★★★★☆</td>
-            </tr>
-            <tr>
-              <td>Java</td>
-              <td>★★★☆☆</td>
-            </tr>
-          </table>
-        </div>
+      <table>
+        <tr>
+          <td>C#</td>
+          <td>★★★★★</td>
+        </tr>
+        <tr>
+          <td>HTML</td>
+          <td>★★★★★</td>
+        </tr>
+        <tr>
+          <td>JavaScript</td>
+          <td>★★★★☆</td>
+        </tr>
+        <tr>
+          <td>C++</td>
+          <td>★★★★☆</td>
+        </tr>
+        <tr>
+          <td>Python</td>
+          <td>★★★★☆</td>
+        </tr>
+        <tr>
+          <td>CSS</td>
+          <td>★★★☆☆</td>
+        </tr>
+        <tr>
+          <td>Java</td>
+          <td>★★★☆☆</td>
+        </tr>
+      </table>
       </div>
-
     </div>
+    <hr>
 
-  </div>
-
-  <hr>
-
-  <div class="module">
-    <h2>Academic Achievements</h2>
-    <img class="modImg imgLeft" src="resources/medal.png" alt="honorsImg">
-    <div class="modTxt">
-      <ul>
-        <li>Average grade: 8.26.</li>
-        <li>With honors in Advanced graphic processors.</li>
-        <li>With honors in Online Games.</li>
-        <li>With honors in Game Algorithms.</li>
-        <li>With honors in Multiplayer Environments.</li>
-      </ul>
-    </div>
-  </div>
-
-  <hr>
-
-  <div class="module">
-    <h2>Game Development Experience</h2>
-    <img class="modImg imgLeft" src="resources/gamepad.png" alt="gamepad">
-    <div class="modTxt">
-      <p>As a game developer I have great skills working with geometry, graphics,
+    <h2>Experience</h2>
+    <div class="flexParent">
+      <img class="modImg" src="resources/gamepad.png" alt="gamepad">
+      <p class="modTxt">As a game developer I have great skills working with geometry, graphics,
         AI, and physics for virtual environment simulations.<br><br>
         Over the past few years I have developed many games. Some of them were
         depeloped as university projects and others as game jam submissions.<br><br>
         I love working as a team and I am familiar with Agile and Scrum
         methodologies. <br><br>
-        I have a <a href="https://github.com/pedro876/BestGames">public repository</a>  which contains many of my games.
+        I have a <a href="https://github.com/pedro876/BestGames">public repository</a> which contains many of my games.
         Some of them are also avaible in my <a href="https://peter876.itch.io/">itch.io account</a>.
       </p>
     </div>
     <div class="iframe-container">
       <iframe src="https://www.youtube.com/embed/F6oKNHqrnKo" allowfullscreen></iframe>
     </div>
-  </div>
-  <hr>
+    <hr>
 
-  <div class="module">
-    <h2>Last work</h2>
+    <h2>Last project</h2>
     <p>Recently I have developed the game <em><a href="https://gepeto.itch.io/bullet-to-the-present">Bullet to the Present</a></em>
-     . The project is the result of a week-long game jam in which I took part as a programmer and worked with some friends to create this first-person puzzle game.</p>
+      . The project is the result of a week-long game jam in which I took part as a programmer and worked with some friends to create this first-person puzzle game.
+    </p>
     <div class="iframe-container">
       <iframe src="https://www.youtube.com/embed/5lTrahM3QKc" allowfullscreen></iframe>
     </div>
+
   </div>
 
   <div class="footer">
@@ -206,7 +192,6 @@
       <li>Icons made by <a href="https://www.flaticon.com/authors/vectors-market" title="Vectors Market">Vectors Market</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a></li>
     </ul>
   </div>
-
 </body>
 
 </html>

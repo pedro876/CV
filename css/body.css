@@ -1,0 +1,57 @@
+
+
+.modImg {
+  width: 170px;
+  vertical-align: middle;
+  margin: 10px 1rem 20px 1rem;
+}
+
+.socialIcon {
+  width: 64px;
+  vertical-align: middle;
+}
+
+.flexParent {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.flexChild {
+  /*align-self: center;*/
+  width: 100px;
+  vertical-align: middle;
+  margin: 1rem 0.2rem 1rem 0.2rem;
+}
+
+.modTxt{
+  vertical-align: middle;
+  margin: 0 1rem 0 1rem;
+  width: 700px;
+  text-align:left;
+}
+
+table{
+  text-align: left;
+  margin: 0;
+  /*padding: 0 1rem 0 1rem;*/
+  border-spacing: 1rem;
+  width: 350px;
+}
+
+li{
+  list-style: none;
+}
+li::before{
+  content: "► "
+}
+
+.tableCustom{
+  text-align: left;
+  width: 700px;
+  margin: 0 1rem 0 1rem;
+  justify-content:flex-start;
+}

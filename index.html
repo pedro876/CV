@@ -7,8 +7,9 @@
   <title>Pedro Casas Personal Site</title>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Merienda&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/master.css">
-  <link rel="stylesheet" href="css/module.css">
+  <link rel="stylesheet" href="css/headerFooter.css">
+  <link rel="stylesheet" href="css/misc.css">
+  <link rel="stylesheet" href="css/body.css">
 </head>
 
 <body>
@@ -16,200 +17,183 @@
     <img class="profileImg" src="resources/profileImg.png" alt="profile-img">
     <div class="siteHeaderTxt">
       <h1>Pedro Casas Martínez</h1>
-      <p>Programador.<br>
+      <p class="pCentered">Programador.<br>
         Estudiante de último curso en Diseño y Desarrollo de Videojuegos en Madrid, España.</p>
     </div>
   </div>
 
-  <div class="langBtn">
-    <a class="langRef" href="en.html">See english version</a>
-  </div>
+  <div class="container">
 
-  <hr>
+    <div class="langBtn">
+      <a class="langRef" href="en.html">See english version</a>
+    </div>
 
-  <div class="module">
+    <hr>
+
     <h2>Contacto</h2>
-    <p>Email: pedrocasas876@gmail.com</p>
-    <div class="modTxt">
-      <table>
-        <tr class="socialRow">
-          <td><img class="socialIcon" src="resources/github.png" alt="git"></td>
-          <td><a href="https://github.com/pedro876">Github</a></td>
-          <td><img class="socialIcon" src="resources/linkedin.png" alt="linkedin"></td>
-          <td><a href="https://www.linkedin.com/in/pedrocasasm">LinkedIn</a></td>
-        </tr>
-        <tr class="socialRow">
-          <td><img class="socialIcon" src="resources/itchio.png" alt="itchio"></td>
-          <td><a href="https://peter876.itch.io/">Itch.io</a></td>
-          <td><img class="socialIcon" src="resources/gmail.png" alt="gmail"></td>
-          <td><a href="mailto:pedrocasas876@gmail.com">Enviar email</a></td>
-        </tr>
-      </table>
+    <p class="pCentered">Email: pedrocasas876@gmail.com</p>
+    <div class="flexParent">
+      <a class="flexChild" href="https://github.com/pedro876">
+        <img class="socialIcon" src="resources/github.png" alt="git">
+        Github</a>
+
+      <a class="flexChild" href="https://www.linkedin.com/in/pedrocasasm">
+        <img class="socialIcon" src="resources/linkedin.png" alt="linkedin">
+        LinkedIn</a>
+
+      <a class="flexChild" href="https://peter876.itch.io/">
+        <img class="socialIcon" src="resources/itchio.png" alt="itchio">
+        Itch.io</a>
+
+      <a class="flexChild" href="mailto:pedrocasas876@gmail.com">
+        <img class="socialIcon" src="resources/gmail.png" alt="gmail">
+        Enviar email</a>
     </div>
+    <hr>
 
-  </div>
-
-  <hr>
-
-  <div class="module">
-    <h2>Education</h2>
-    <img class="modImg imgLeft" src="resources/notebooks.png" alt="educationImg">
-    <div class="modTxt">
-      <ul>
-        <li>Grado en Diseño y Desarrollo de Videojuegos. <a href="https://www.urjc.es/">Universidad Rey Juan Carlos</a>.</li>
-        <li>Curso adicional de programación competitiva <a href="https://www.urjc.es/">Universidad Rey Juan Carlos</a>.</li>
-        <!--<li>Online course on Web Development. <a href="https://www.udemy.com/course/the-complete-web-development-bootcamp/">Udemy course</a>.</li>-->
-        <li>Certificado de Inglés B2 <a href="https://www.kensingtonsite.com/?gclid=EAIaIQobChMI8KfWvd2O6wIVy7vVCh2dgwyaEAAYASAAEgKN2_D_BwE">Kensite School</a>. Murcia, Spain</li>
-      </ul>
-    </div>
-  </div>
-  <hr>
-
-  <div class="module">
     <h2>Objetivo</h2>
-    <img class="modImg imgLeft" src="resources/goal.png" alt="goalImg">
-    <div class="modTxt">
-
-      <p>Estoy buscando una buena oportunidad para realizar las prácticas universitarias y completar así el grado trabajando en
+    <div class="flexParent">
+      <img class="modImg" src="resources/goal.png" alt="goalImg">
+      <p class="modTxt">Estoy buscando una buena oportunidad para realizar las prácticas universitarias y completar así el grado trabajando en
         un proyecto en el que realmente aprenda y pueda ser de utilidad.</p>
     </div>
-  </div>
+    <hr>
 
-  <hr>
-
-  <div class="module">
-    <h2>Habilidades</h2>
-    <img class="modImg imgLeft" src="resources/key-skills.png" alt="skillsImg">
-    <div class="modTxt">
-      <div class="tableCustom">
-        <div class="tableColumn">
-          <table>
-            <tr>
-              <td>Unity</td>
-              <td>★★★★★</td>
-            </tr>
-            <tr>
-              <td>Shading</td>
-              <td>★★★★☆</td>
-            </tr>
-            <tr>
-              <td>AI</td>
-              <td>★★★★☆</td>
-            </tr>
-            <tr>
-              <td>Redes</td>
-              <td>★★★★☆</td>
-            </tr>
-            <tr>
-              <td>SQL</td>
-              <td>★★★★☆</td>
-            </tr>
-            <tr>
-              <td>UE4</td>
-              <td>★★★☆☆</td>
-            </tr>
-            <tr>
-              <td>MongoDB</td>
-              <td>★★★☆☆</td>
-            </tr>
-          </table>
-        </div>
-        <div class="tableColumn">
-          <table>
-            <tr>
-              <td>C#</td>
-              <td>★★★★★</td>
-            </tr>
-            <tr>
-              <td>HTML</td>
-              <td>★★★★★</td>
-            </tr>
-            <tr>
-              <td>CSS</td>
-              <td>★★★★☆</td>
-            </tr>
-            <tr>
-              <td>JavaScript</td>
-              <td>★★★★☆</td>
-            </tr>
-            <tr>
-              <td>C++</td>
-              <td>★★★★☆</td>
-            </tr>
-            <tr>
-              <td>Python</td>
-              <td>★★★★☆</td>
-            </tr>
-            <tr>
-              <td>Java</td>
-              <td>★★★☆☆</td>
-            </tr>
-          </table>
-        </div>
+    <h2>Estudios</h2>
+    <div class="flexParent">
+      <img class="modImg" src="resources/notebooks.png" alt="educationImg">
+      <div class="modTxt">
+        <ul>
+          <li>Grado en Diseño y Desarrollo de Videojuegos. <a href="https://www.urjc.es/">Universidad Rey Juan Carlos</a>.</li>
+          <li>Curso adicional de programación competitiva <a href="https://www.urjc.es/">Universidad Rey Juan Carlos</a>.</li>
+          <!--<li>Online course on Web Development. <a href="https://www.udemy.com/course/the-complete-web-development-bootcamp/">Udemy course</a>.</li>-->
+          <li>Certificado de Inglés B2 <a href="https://www.kensingtonsite.com/?gclid=EAIaIQobChMI8KfWvd2O6wIVy7vVCh2dgwyaEAAYASAAEgKN2_D_BwE">Kensite School</a>. Murcia, Spain</li>
+        </ul>
       </div>
-
     </div>
+    <hr>
 
-  </div>
-
-  <hr>
-
-  <div class="module">
     <h2>Logros académicos</h2>
-    <img class="modImg imgLeft" src="resources/medal.png" alt="honorsImg">
-    <div class="modTxt">
-      <ul>
-        <li>Nota media: 8.26.</li>
-        <li>Matrícula de honor en Procesadores Gráficos Avanzados.</li>
-        <li>Matrícula de honor en Juegos en Red.</li>
-        <li>Matrícula de honor en Algoritmos para Juegos.</li>
-        <li>Matrícula de honor en Entornos Multijugador.</li>
-      </ul>
+    <div class="flexParent">
+      <img class="modImg" src="resources/medal.png" alt="honorsImg">
+      <div class="modTxt">
+        <ul>
+          <li>Nota media: 8.26.</li>
+          <li>Matrícula de honor en Procesadores Gráficos Avanzados.</li>
+          <li>Matrícula de honor en Juegos en Red.</li>
+          <li>Matrícula de honor en Algoritmos para Juegos.</li>
+          <li>Matrícula de honor en Entornos Multijugador.</li>
+        </ul>
+      </div>
     </div>
-  </div>
+    <hr>
 
-  <hr>
+    <h2>Habilidades</h2>
+    <div class="flexParent">
+      <img class="modImg" src="resources/key-skills.png" alt="skillsImg">
+      <div class="tableCustom flexParent">
 
-  <div class="module">
-    <h2>Experiencia en el desarrollo de videojuegos</h2>
-    <img class="modImg imgLeft" src="resources/gamepad.png" alt="gamepad">
-    <div class="modTxt">
-      <p>Durante mi formación he desarrollado destrezas en geometría, gráficos,
+
+      <table>
+        <tr>
+          <td>Unity</td>
+          <td>★★★★★</td>
+        </tr>
+        <tr>
+          <td>Shading</td>
+          <td>★★★★☆</td>
+        </tr>
+        <tr>
+          <td>AI</td>
+          <td>★★★★☆</td>
+        </tr>
+        <tr>
+          <td>Redes</td>
+          <td>★★★★☆</td>
+        </tr>
+        <tr>
+          <td>SQL</td>
+          <td>★★★★☆</td>
+        </tr>
+        <tr>
+          <td>UE4</td>
+          <td>★★★☆☆</td>
+        </tr>
+        <tr>
+          <td>MongoDB</td>
+          <td>★★★☆☆</td>
+        </tr>
+      </table>
+      <table>
+        <tr>
+          <td>C#</td>
+          <td>★★★★★</td>
+        </tr>
+        <tr>
+          <td>HTML</td>
+          <td>★★★★★</td>
+        </tr>
+        <tr>
+          <td>JavaScript</td>
+          <td>★★★★☆</td>
+        </tr>
+        <tr>
+          <td>C++</td>
+          <td>★★★★☆</td>
+        </tr>
+        <tr>
+          <td>Python</td>
+          <td>★★★★☆</td>
+        </tr>
+        <tr>
+          <td>CSS</td>
+          <td>★★★☆☆</td>
+        </tr>
+        <tr>
+          <td>Java</td>
+          <td>★★★☆☆</td>
+        </tr>
+      </table>
+      </div>
+    </div>
+    <hr>
+
+    <h2>Experiencia</h2>
+    <div class="flexParent">
+      <img class="modImg" src="resources/gamepad.png" alt="gamepad">
+      <p class="modTxt">Durante mi formación he desarrollado destrezas en geometría, gráficos,
         AI y físicas orientadas a la simulación de entornos virtuales.<br><br>
         Estos últimos años he desarrollado muchos videojuegos. Algunos fueron
         proyectos de la universidad y otros fueron creados en game jams.<br><br>
         Disfruto trabajando en equipo y conozco las metodologías Agile y Scrum.<br><br>
         Tengo un <a href="https://github.com/pedro876/BestGames">repositorio público</a>
         que contiene muchos de mis juegos. Algunos también están disponibles en mi
-        <a href="https://peter876.itch.io/">cuenta de itch.io</a>.
-      </p>
+        <a href="https://peter876.itch.io/">cuenta de itch.io</a>.</p>
     </div>
     <div class="iframe-container">
       <iframe src="https://www.youtube.com/embed/F6oKNHqrnKo" allowfullscreen></iframe>
     </div>
-  </div>
-  <hr>
+    <hr>
 
-  <div class="module">
     <h2>Proyecto más reciente</h2>
     <p>Recientemente he desarrollado el videojuego
       <em><a href="https://gepeto.itch.io/bullet-to-the-present">Bullet to the Present</a></em>
-     . Ha sido desarrollado en una game jam de una semana de duración.
-     Mi rol en el equipo fue programar este juego de puzles en primera persona.</p>
+      . Ha sido desarrollado en una game jam de una semana de duración.
+      Mi rol en el equipo fue programar este juego de puzles en primera persona.
+    </p>
     <div class="iframe-container">
       <iframe src="https://www.youtube.com/embed/5lTrahM3QKc" allowfullscreen></iframe>
     </div>
   </div>
 
   <div class="footer">
-    <h2>Credits</h2>
+    <h2>Créditos</h2>
     <ul class="creditsList">
       <li>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a></li>
       <li>Icons made by <a href="https://www.flaticon.com/authors/ddara" title="dDara">dDara</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a></li>
       <li>Icons made by <a href="https://www.flaticon.com/authors/vectors-market" title="Vectors Market">Vectors Market</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a></li>
     </ul>
   </div>
-
 </body>
 
 </html>

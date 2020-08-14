@@ -19,78 +19,14 @@ body {
   color: #333c4a;
   font-weight: normal;
   padding: 0 10px 0 10px;
+  max-width: 1080px;
+  margin: 0 auto 0 auto;
 }
 
 h1 {
   font-family: 'Merienda', cursive;
   font-weight: normal;
   text-shadow: 2px 2px 1px black;
-}
-
-h2 {
-  font-family: 'Raleway', sans-serif;
-  font-weight: normal;
-  margin: 0;
-  padding: 0;
-}
-
-hr {
-  width: 10%;
-  max-width: 80px;
-  border-style: none none dotted none;
-  border-width: 8px;
-  border-color: #495664;
-  margin: 30px auto 30px auto;
-}
-
-a {
-  text-decoration: none;
-  color: #1ea0a8
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-.langBtn{
-  padding: 8px 24px 8px 24px;
-
-  border-width: 0;
-  background-color: #333c4a;
-
-  border-radius: 16px;
-  display: inline-block;
-  text-align: center;
-  margin:0 auto 24px auto;
-}
-
-.langRef{
-  font-size: 110%;
-  color: white;
-  font-weight: normal;
-  font-family: 'Raleway', sans-serif;
-}
-
-.langBtn:hover{
-  background-color: #495664;
-}
-
-.iframe-container{
-  overflow: hidden;
-  margin: 0 auto 0 auto;
-  padding-top: 56.25%;
-  position:relative;
-  border-radius: 15px;
-  margin-top: 20px;
-}
-
-.iframe-container iframe{
-  border: 0;
-  height: 100%;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 100%;
 }
 
 
